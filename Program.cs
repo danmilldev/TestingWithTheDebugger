@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Diagnostics;
+using TestingWithTheDebugger;
+
+
+Debug.Assert(Calculator.Sum(5, 10) == 15, "The Sum Operation didnt gave the correct result");
