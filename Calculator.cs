@@ -8,12 +8,12 @@ namespace TestingWithTheDebugger
 {
     static class Calculator
     {
-        public static double Sum(int num1,int num2)
+        public static double Sum(double num1,double num2)
         {
             return num1 + num2;
         }
 
-        public static double Subtract(int num1,int num2)
+        public static double Subtract(double num1,double num2)
         {
             return num1 - num2;
         }
